@@ -257,11 +257,12 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer *  .75,
   4: $spacer * 1,
-  5: $spacer * 1.5,
-  6: $spacer * 1.75,
-  7: $spacer * 2,
-  8: $spacer * 2.5,
-  9: $spacer * 3.75
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  7: $spacer * 1.75,
+  8: $spacer * 2,
+  9: $spacer * 2.5,
+  10: $spacer * 3.75
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -350,7 +351,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           1.5rem !default;
+$grid-gutter-width:           0rem !default; //本來是1.5rem
 $grid-row-columns:            6 !default;
 
 $gutters: $spacers !default;
@@ -1093,7 +1094,7 @@ $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
 $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius !default;
-$card-border-color:                 rgba($black, .125) !default;
+$card-border-color:                 white !default; 
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y * .5 !default;
 $card-cap-padding-x:                $card-spacer-x !default;
