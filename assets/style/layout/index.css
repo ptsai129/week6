@@ -53,4 +53,21 @@
   right: 0;
 }
 
+.fbLink {
+  margin-left: 10px;
+  margin-right: 36px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt90 {
+  padding-top: 90px;
+}
+
+.liveStreaming-content {
+  padding: 40px 24px 50px 24px;
+}
+
 /*# sourceMappingURL=index.css.map */
