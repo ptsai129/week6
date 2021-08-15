@@ -81,15 +81,14 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    #630834,
   "secondary":  #E31277,
-  "success":    $success,
-  "info":       $info,
+  "success":   $success, 
+  "info":       #190014CC,
   "warning":    $warning,
   "danger":     $danger,
-  "light":      #EFEFEF ,
+  "light":      #EFEFEF,
   "dark":       #707070,
   "white":      #fff,
   "black":      #000, 
-
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -260,9 +259,10 @@ $spacers: (
   5: $spacer * 1.25,
   6: $spacer * 1.5,
   7: $spacer * 1.75,
-  8: $spacer * 2,
-  9: $spacer * 2.5,
-  10: $spacer * 3.75
+  8: $spacer *1.875, 
+  9: $spacer * 2,
+  10: $spacer * 2.5,
+  11: $spacer * 3.75
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
