@@ -13669,6 +13669,10 @@ img {
   padding-bottom: 36px;
 }
 
+.exhib-border {
+  border: 1px solid #707070;
+}
+
 .banner {
   background-image: url(https://boisonchang.github.io/gh-pages-project2/assets/images/header-banner.jpg);
   background-position: center;
