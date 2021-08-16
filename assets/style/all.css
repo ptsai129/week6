@@ -13768,7 +13768,7 @@ img {
   height: 350px;
 }
 
-.taiwanExpo {
+.taiwanExpo, .KaohsiungExpo, .onlineExpo {
   padding-top: 80px;
   padding-bottom: 52px;
 }
