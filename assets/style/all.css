@@ -13670,7 +13670,8 @@ img {
 }
 
 .exhib-border {
-  border: 1px solid #707070;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
 }
 
 .banner {
