@@ -5,9 +5,7 @@
     list-style: none;
     li{
         a:hover{
-            text-decoration: underline;
-            text-decoration-color:#E31277; 
-
+            border-bottom: 1px solid #E31277;
         }
     }
 }
