@@ -7,9 +7,7 @@
 }
 
 .ticket li a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #E31277;
-          text-decoration-color: #E31277;
+  border-bottom: 1px solid #E31277;
 }
 
 /*# sourceMappingURL=collection.css.map */
