@@ -13790,4 +13790,10 @@ img {
   list-style: none;
 }
 
+.ticket li a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #E31277;
+          text-decoration-color: #E31277;
+}
+
 /*# sourceMappingURL=all.css.map */
