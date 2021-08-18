@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Collection</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
@@ -26,7 +26,7 @@
             </li>
             <li class="nav-item">
               <!-- trigger modal -->
-              <a class="nav-link text-dark d-flex position-relative py-0 pe-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">
+              <a class="nav-link text-dark d-flex position-relative py-0 pe-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                 <span class="material-icons">confirmation_number
                 </span>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">3</span>
@@ -213,13 +213,81 @@
 <!-- 新增 .right -->
 <div class="modal right fade modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content bg-black">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Cart List</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        文字內容
+        <div class="card rounded px-8 pt-7 pb-6 mb-3">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="d-flex align-items-center">
+            <div class="w-25 me-4">
+              <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true" class="card-img-top" alt="TaiwanStyle">
+            </div>
+              <div class="card-body text-black">
+                <h5 class="h6 mb-1">2020 台味設計展</h5>
+                <p class="mb-1">01 JUN — 31 OCT</p>
+                <p class="text-dark mb-3">全票</p>
+                <p class="fs-5 fw-bold">NT$350</p>
+              </div>
+              <div class="card-number d-flex text-black">
+                <span class="material-icons pe-3">
+                  add
+                  </span>
+                  <p class="pe-3">01</p>
+                  <span class="material-icons">
+                    remove
+                    </span>
+              </div>
+          </div>
+        </div>
+        <div class="card rounded px-8 pt-7 pb-6 mb-3">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="d-flex align-items-center">
+            <div class="w-25 me-4">
+              <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true" alt="OnlineDesignExpo">
+            </div>
+              <div class="card-body text-black">
+                <h5 class="h6 mb-1">2020 台味設計展</h5>
+                <p class="mb-1">01 JUN — 31 OCT</p>
+                <p class="text-dark mb-3">全票</p>
+                <p class="fs-5 fw-bold">NT$350</p>
+              </div>
+              <div class="card-number d-flex text-black">
+                <span class="material-icons pe-3">
+                  add
+                  </span>
+                  <p class="pe-3">01</p>
+                  <span class="material-icons">
+                    remove
+                    </span>
+              </div>
+          </div>
+        </div>
+        <div class="card rounded px-8 pt-7 pb-6 mb-3">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="d-flex align-items-center">
+            <div class="w-25 me-4">
+              <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true" alt="KaohsiungDesignFestival">
+            </div>
+              <div class="card-body text-black">
+                <h5 class="h6 mb-1">2020 台味設計展</h5>
+                <p class="mb-1">01 JUN — 31 OCT</p>
+                <p class="text-dark mb-3">全票</p>
+                <p class="fs-5 fw-bold">NT$350</p>
+              </div>
+              <div class="card-number d-flex text-black">
+                <span class="material-icons pe-3">
+                  add
+                  </span>
+                  <p class="pe-3">01</p>
+                  <span class="material-icons">
+                    remove
+                    </span>
+              </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">前往結帳</button>
