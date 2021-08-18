@@ -25,7 +25,8 @@
               <a class="nav-link text-dark" href="#">Sign up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark d-flex position-relative py-0 pe-0" href="#">
+              <!-- trigger modal -->
+              <a class="nav-link text-dark d-flex position-relative py-0 pe-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">
                 <span class="material-icons">confirmation_number
                 </span>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">3</span>
@@ -65,9 +66,26 @@
         </div>
       </div>
     </footer>
+<!-- Modal -->
+<!-- 新增 .right -->
+<div class="modal right fade modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Cart List</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        文字內容
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">前往結帳</button>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
-
 </html>
