@@ -13674,6 +13674,39 @@ img {
   border-bottom: 1px solid #707070;
 }
 
+.modal.right .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body .card {
+  max-width: 540px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
 .banner {
   background-image: url(https://boisonchang.github.io/gh-pages-project2/assets/images/header-banner.jpg);
   background-position: center;
@@ -13804,39 +13837,6 @@ img {
 
 .mt-80 {
   margin-top: 80px;
-}
-
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  -webkit-transform: translate3d(0%, 0, 0);
-          transform: translate3d(0%, 0, 0);
-}
-
-.modal.right .modal-content {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.modal-content {
-  border-radius: 0;
-  border: none;
-}
-
-.modal-header {
-  border-bottom: none;
-}
-
-.modal-body .card {
-  max-width: 540px;
-}
-
-.modal-footer {
-  border-top: none;
 }
 
 /*# sourceMappingURL=all.css.map */
