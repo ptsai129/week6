@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #E31277;
+  background-color: #e31277;
 }
 
 .timeline-pointer {
@@ -29,10 +29,10 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  -webkit-transform: translate(-50%, -25%);
-      -ms-transform: translate(-50%, -25%);
-          transform: translate(-50%, -25%);
-  background-color: #E31277;
+  -webkit-transform: translate(-50%, -30%);
+      -ms-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  background-color: #e31277;
 }
 
 /*# sourceMappingURL=confirmation.css.map */
