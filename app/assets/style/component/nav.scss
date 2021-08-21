@@ -1,0 +1,31 @@
+.nav-scroller {
+    height: 2.75rem;  /* 隱藏下方捲軸 */
+    overflow-y: hidden; 
+    border-bottom: 1px solid #707070;
+}
+
+.nav-scroller .nav a{
+    position: relative;
+    padding:5px 1em;
+}
+.nav-scroller .nav {
+    flex-wrap: nowrap;
+    padding-bottom: 1rem; /* 隱藏下方捲軸 */
+    overflow-x: auto;
+    white-space: nowrap;
+    a:after{
+        content: "";
+        position:absolute;
+        left:50%;
+        right:50%;
+        height:0;
+        bottom:0;
+        border-bottom: 1px solid #E31277;
+        transition: .3s;
+
+    }
+}
+.nav-scroller .nav a:hover:after{
+    left:0; 
+    right:0;
+}
