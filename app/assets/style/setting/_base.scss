@@ -11,8 +11,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
-      display: block;
-  }
+    object-fit: cover;
+    vertical-align: middle;
+}
+
  
   *,*:before,*::after{
     box-sizing: border-box;
