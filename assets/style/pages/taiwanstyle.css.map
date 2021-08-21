@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/taiwanstyle.scss","pages/taiwanstyle.css"],"names":[],"mappings":"AAAA;EACI,iBAAiB;EACjB,oBAAoB;ACCxB","file":"taiwanstyle.css","sourcesContent":[".taiwanExpo, .KaohsiungExpo ,.onlineExpo{\r\n    padding-top: 80px;\r\n    padding-bottom: 52px;\r\n}",".taiwanExpo, .KaohsiungExpo, .onlineExpo {\n  padding-top: 80px;\n  padding-bottom: 52px;\n}\n"]}

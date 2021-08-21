@@ -13671,51 +13671,24 @@ ul {
   list-style: none;
 }
 
-.subscribe {
-  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 208px;
-  padding-bottom: 36px;
+.mb-40 {
+  margin-bottom: 40px;
 }
 
-.exhib-border {
-  border-top: 1px solid #707070;
-  border-bottom: 1px solid #707070;
+.mt-80 {
+  margin-top: 80px;
 }
 
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  -webkit-transform: translate3d(0%, 0, 0);
-          transform: translate3d(0%, 0, 0);
+.mb-48 {
+  margin-bottom: 48px;
 }
 
-.modal.right .modal-content {
-  height: 100%;
-  overflow-y: auto;
+.pt-40 {
+  padding-top: 40px;
 }
 
-.modal-content {
-  border-radius: 0;
-  border: none;
-}
-
-.modal-header {
-  border-bottom: none;
-}
-
-.modal-body .card {
-  max-width: 540px;
-}
-
-.modal-footer {
-  border-top: none;
+.pt90 {
+  padding-top: 90px;
 }
 
 .banner {
@@ -13772,29 +13745,6 @@ ul {
   right: 0;
 }
 
-.fbLink {
-  margin-left: 10px;
-  margin-right: 36px;
-}
-
-.pt-40 {
-  padding-top: 40px;
-}
-
-.pt90 {
-  padding-top: 90px;
-}
-
-.liveStreaming-content {
-  padding: 40px 24px 50px 24px;
-}
-
-.liveStreaming-pic {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -13815,39 +13765,6 @@ ul {
 .swiper-slide img {
   width: 100%;
   height: 350px;
-}
-
-.knowMore {
-  margin-top: 60px;
-}
-
-.taiwanExpo, .KaohsiungExpo, .onlineExpo {
-  padding-top: 80px;
-  padding-bottom: 52px;
-}
-
-.wordSize {
-  font-size: 40px;
-}
-
-.ticket {
-  list-style: none;
-}
-
-.ticket li a:hover {
-  border-bottom: 1px solid #E31277;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-.mt-80 {
-  margin-top: 80px;
-}
-
-.mb-48 {
-  margin-bottom: 48px;
 }
 
 .timeline-section {
@@ -13885,6 +13802,89 @@ ul {
       -ms-transform: translate(-50%, -30%);
           transform: translate(-50%, -30%);
   background-color: #e31277;
+}
+
+.exhib-border {
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body .card {
+  max-width: 540px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.subscribe {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 208px;
+  padding-bottom: 36px;
+}
+
+.fbLink {
+  margin-left: 10px;
+  margin-right: 36px;
+}
+
+.liveStreaming-content {
+  padding: 40px 24px 50px 24px;
+}
+
+.liveStreaming-pic {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.knowMore {
+  margin-top: 60px;
+}
+
+.taiwanExpo, .KaohsiungExpo, .onlineExpo {
+  padding-top: 80px;
+  padding-bottom: 52px;
+}
+
+.wordSize {
+  font-size: 40px;
+}
+
+.ticket {
+  list-style: none;
+}
+
+.ticket li a:hover {
+  border-bottom: 1px solid #E31277;
 }
 
 /*# sourceMappingURL=all.css.map */
