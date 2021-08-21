@@ -13657,7 +13657,9 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
 }
 
 *, *:before, *::after {
@@ -13834,10 +13836,6 @@ ul {
 
 .ticket li a:hover {
   border-bottom: 1px solid #E31277;
-}
-
-.btn-width {
-  width: 100%;
 }
 
 .mb-40 {
