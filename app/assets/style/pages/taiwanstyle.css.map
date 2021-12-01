@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,EAAE,cAAc,EAAE,WAAW,CAAA;EACpC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CACvB",
-    "sources": [
-        "taiwanstyle.scss"
-    ],
-    "names": [],
-    "file": "taiwanstyle.css"
-}
