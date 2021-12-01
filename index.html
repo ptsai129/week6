@@ -8,7 +8,7 @@
     <title>EXHIBINECTION</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -233,11 +233,11 @@
       <div class="container">
       <h4 class="text-white mb-3 lh-base">想收到最新消息嗎？<br>
         快訂閱我們！</h4>
-        <div class="email d-flex">
-        <input class="rounded-start" type="email" placeholder="請輸入你的電子信箱">
-        <button type="button"  class="btn btn-secondary rounded-end">訂閱</button>
+       <div class="input-group input-group-width">
+        <input type="email" class="form-control rounded-start" placeholder="請輸入你的電子信箱" aria-label="請輸入你的電子信箱" aria-describedby="button-addon2">
+        <button class="btn btn-secondary rounded-end" type="button" id="button-addon2">訂閱</button>
       </div>
-    </div>
+      </div>
     </div>
 
     <footer class="footer py-4">
@@ -277,13 +277,13 @@
                 <p class="fs-5 fw-bold">NT$350</p>
               </div>
               <div class="card-number d-flex text-black">
-                <span class="material-icons pe-3">
-                  add
-                  </span>
-                  <p class="pe-3">01</p>
-                  <span class="material-icons">
-                    remove
-                    </span>
+                <button type="button" class="btn  material-icons pe-3">
+                  remove
+                  </button>
+                  <p class="mt-3">01</p>
+                  <button type="button" class="btn material-icons pe-3">
+                    add
+                    </button>
               </div>
           </div>
         </div>
@@ -300,13 +300,13 @@
                 <p class="fs-5 fw-bold">NT$350</p>
               </div>
               <div class="card-number d-flex text-black">
-                <span class="material-icons pe-3">
-                  add
-                  </span>
-                  <p class="pe-3">01</p>
-                  <span class="material-icons">
-                    remove
-                    </span>
+                <button type="button" class="btn  material-icons pe-3">
+                  remove
+                  </button>
+                  <p class="mt-3">01</p>
+                  <button type="button" class="btn material-icons pe-3">
+                    add
+                    </button>
               </div>
           </div>
         </div>
@@ -322,14 +322,14 @@
                 <p class="text-dark mb-3">全票</p>
                 <p class="fs-5 fw-bold">NT$350</p>
               </div>
-              <div class="card-number d-flex text-black">
-                <span class="material-icons pe-3">
-                  add
-                  </span>
-                  <p class="pe-3">01</p>
-                  <span class="material-icons">
-                    remove
-                    </span>
+              <div class="card-number d-flex text-black align-items-center">
+                <button type="button" class="btn  material-icons pe-3">
+                  remove
+                  </button>
+                  <p class="mt-3">01</p>
+                  <button type="button" class="btn material-icons pe-3">
+                    add
+                    </button>
               </div>
           </div>
         </div>
@@ -340,7 +340,7 @@
     </div>
   </div>
 </div>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
