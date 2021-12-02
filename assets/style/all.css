@@ -14224,6 +14224,11 @@ ul {
   margin-top: 60px;
 }
 
+.cart-img {
+  width: 120px;
+  height: 120px;
+}
+
 .taiwanExpo, .KaohsiungExpo, .onlineExpo {
   padding-top: 80px;
   padding-bottom: 52px;
