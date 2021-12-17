@@ -14099,7 +14099,7 @@ ul {
 }
 
 .swiper-slide img {
-  width: 350px;
+  max-width: 350px;
   height: 350px;
 }
 
