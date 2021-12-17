@@ -4,7 +4,7 @@ $(function() {
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 5,
   breakpoints: {
     // when window width is >= 576px
     576: {
