@@ -14197,6 +14197,12 @@ ul {
   width: 345px;
 }
 
+@media (max-width: 768px) {
+  .input-group-width {
+    width: 100%;
+  }
+}
+
 .banner {
   background-image: url(https://boisonchang.github.io/gh-pages-project2/assets/images/header-banner.jpg);
   background-position: center;
