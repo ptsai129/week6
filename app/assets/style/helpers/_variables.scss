@@ -263,7 +263,8 @@ $spacers: (
   9: $spacer * 2,
   10: $spacer * 2.5,
   11: $spacer * 3.75,
-  12: $spacer * 5
+  12: $spacer * 5,
+  13: $spacer * 6 
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -352,7 +353,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           .9375rem !default; //本來是1.5rem
+$grid-gutter-width:           1.875rem !default; //本來是1.5rem改.9375rem
 $grid-row-columns:            6 !default;
 
 $gutters: $spacers !default;
