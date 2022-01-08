@@ -14486,6 +14486,30 @@ ul {
           justify-content: center;
 }
 
+.timeline-pointer-next {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timeline-pointer-next::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -30%);
+      -ms-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  background-color: #FFFFFF;
+  border: 1px solid #e31277;
+}
+
 .timeline-pointer::before {
   content: "";
   position: absolute;
