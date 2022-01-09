@@ -64,11 +64,12 @@
   <!--購買商品列表-->
       <div class="container">
         <div class="row">
-          <ul  class="col-lg-8">
+          <ul  class="col-lg-8 order-2 order-md-1">
             <li>
+              <h5 class="d-lg-none fw-bold">購買商品列表</h5>
               <div class="row mb-5">
                 <div class="col-md-3 col-6">
-                  <img class="img-fluid ratio h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true" alt="OnlineDesignExpo">  
+                  <img class="img-fluid  h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true" alt="OnlineDesignExpo">  
                 </div>
                 <div class="col-md-9 col-6">
                  <div class="ticket-card d-flex justify-content-around align-items-center">
@@ -97,7 +98,7 @@
             <li>
               <div class="row mb-5">
                 <div class="col-md-3 col-6">
-                  <img class="img-fluid ratio h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true" alt="OnlineDesignExpo">  
+                  <img class="img-fluid h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true" alt="OnlineDesignExpo">  
                 </div>
                 <div class="col-md-9 col-6">
                  <div class="ticket-card d-flex justify-content-around align-items-center">
@@ -126,7 +127,7 @@
             <li>
               <div class="row mb-5">
                 <div class="col-md-3 col-6">
-                  <img class="img-fluid ratio h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true" alt="KaohsiungDesignFestival">  
+                  <img class="img-fluid h-100" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true" alt="KaohsiungDesignFestival">  
                 </div>
                 <div class="col-md-9 col-6">
                  <div class="ticket-card d-flex justify-content-around align-items-center">
@@ -153,26 +154,24 @@
               </div>
             </li>
           </ul>
-        <div class="col-lg-4">
-          <h5>訂購人資訊</h5>
-          <form action="get">
-           <label for="email">Email</label>
-           <br>
-           <input id="email" class="mb-5" type="email" placeholder="example@gmail.com">
-           <br>
-           <label for="name">姓名</label>
-           <br>
-           <input id="name" class="mb-5" type="text" placeholder="請輸入姓名">
-           <br>
-           <label for="tel">連絡電話</label>
-           <br>
-           <input id="tel" class="mb-5" type="tel" placeholder="請輸入電話">
-           <br>
-           <label for="discountcode">優惠碼</label>
-           <br>
-           <input id="discountcode" class="mb-5" type="text" placeholder="TG87526">
-           <br>
-         </form>
+        <div class="col-lg-4 order-1 order-md-2 mb-6 mb-md-0">
+          <h5 class="fw-bold">訂購人資訊</h5>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="nameFormControlInput" class="form-label">姓名</label>
+              <input type="text" class="form-control" id="nameFormControlInput" placeholder="請輸入姓名">
+              </div>
+              <div class="mb-3">
+                <label for="telFormControlInput" class="form-label">連絡電話</label>
+                <input type="tel" class="form-control" id="telFormControlInput" placeholder="請輸入電話">
+                </div>
+                <div class="mb-3">
+                  <label for="couponFormControlInput" class="form-label">優惠碼</label>
+                  <input type="text" class="form-control" id="couponFormControlInput" placeholder="TG87526">
+                  </div>
          <div class="d-flex justify-content-between">
           <h6>小計</h6>
           <h6>NT$1050</h6>
@@ -185,68 +184,12 @@
             <h5 class="fw-bold">總金額</h5>
             <h5 class="fw-bold">NT$1000</h5>
         </div>
+        <a href="./confirmation.html" class="btn border-primary text-primary rounded">返回</a>
         <a href="./creditcardinfo.html" class="btn btn-secondary rounded">下一步</a>
         </div>
       </div>
        </div>
        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-        <div class="col-12 col-md-4">
-          <h5>訂購人資訊</h5>
-          <form action="get">
-           <label for="email">Email</label>
-           <br>
-           <input id="email" class="mb-5" type="email" placeholder="example@gmail.com">
-           <br>
-           <label for="name">姓名</label>
-           <br>
-           <input id="name" class="mb-5" type="text" placeholder="請輸入姓名">
-           <br>
-           <label for="tel">連絡電話</label>
-           <br>
-           <input id="tel" class="mb-5" type="tel" placeholder="請輸入電話">
-           <br>
-           <label for="discountcode">優惠碼</label>
-           <br>
-           <input id="discountcode" class="mb-5" type="text" placeholder="TG87526">
-           <br>
-         </form>
-         <div class="d-flex justify-content-between">
-          <h6>小計</h6>
-          <h6>NT$1050</h6>
-          </div>
-          <div class="d-flex justify-content-between">
-            <h6>折扣</h6>
-            <h6>-NT$50</h6>
-            </div>
-          <div class="d-flex justify-content-between">
-            <h5 class="fw-bold">總金額</h5>
-            <h5 class="fw-bold">NT$1000</h5>
-        </div>
-        <a href="./creditcardinfo.html" class="btn btn-secondary rounded">下一步</a>
-        </div>
-      </div>
-      </div> -->
-  
-
-
-
-  
-    
-
 
 
 <!-- Modal -->
