@@ -14577,7 +14577,7 @@ ul {
           transform: scale(1.1);
 }
 
-.translate-middle {
+.translate-middle-fix {
   translate: -50%, -70% !important;
 }
 
