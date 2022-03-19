@@ -14523,17 +14523,6 @@ ul {
   background-color: #e31277;
 }
 
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  -webkit-transform: translate3d(0%, 0, 0);
-          transform: translate3d(0%, 0, 0);
-}
-
 .modal.right .modal-content {
   height: 100%;
   overflow-y: auto;
@@ -14556,14 +14545,14 @@ ul {
   border-top: none;
 }
 
-.modal-backdrop {
+.modal.right .modal-dialog {
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1040;
-  width: 100vw;
-  height: 100% !important;
-  background-color: #000;
+  right: 0;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
 }
 
 .exhib-border {

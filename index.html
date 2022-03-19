@@ -26,11 +26,16 @@
             </li>
             <li class="nav-item">
               <!-- trigger modal -->
-              <a class="nav-link text-dark " data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">
+              <a class="nav-link text-dark" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <span class="material-icons">confirmation_number
                 </span>
                 <span class="translate-middle-fix badge rounded-pill bg-secondary">3</span>
               </a>
+              <!-- <a class="nav-link text-dark " data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">
+                <span class="material-icons">confirmation_number
+                </span>
+                <span class="translate-middle-fix badge rounded-pill bg-secondary">3</span>
+              </a> -->
             </li>
           </ul>
         </div>
@@ -270,12 +275,12 @@
     </footer>
 <!-- Modal -->
 <!-- 新增 .right -->
-<div class="modal right fade modal-dialog modal-dialog-scrollable" data-bs-backdrop="false" id="staticBackdrop"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> 
+<div class="modal fade right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content bg-black">
+    <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-white" id="staticBackdropLabel">Cart List</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="exampleModalLabel">Cart List</h5>
+        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="card rounded mb-3">
@@ -354,7 +359,7 @@
       </div>
     </div>
   </div>
-</div> 
+</div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
