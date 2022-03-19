@@ -14556,6 +14556,16 @@ ul {
   border-top: none;
 }
 
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100%;
+  background-color: #000;
+}
+
 .exhib-border {
   border-top: 1px solid #707070;
   border-bottom: 1px solid #707070;
