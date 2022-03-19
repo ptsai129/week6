@@ -14578,7 +14578,9 @@ ul {
 }
 
 .translate-middle-fix {
-  translate: -50%, -70% !important;
+  -webkit-transform: translate(-16px, -17px);
+      -ms-transform: translate(-16px, -17px);
+          transform: translate(-16px, -17px);
 }
 
 .subscribe {
