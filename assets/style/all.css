@@ -14549,7 +14549,6 @@ ul {
   position: fixed;
   right: 0;
   margin: auto;
-  width: 50%;
   height: 100%;
   -webkit-transform: translate3d(0%, 0, 0);
           transform: translate3d(0%, 0, 0);
